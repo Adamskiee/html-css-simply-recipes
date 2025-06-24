@@ -370,7 +370,6 @@ Main
 */
 
 .page{
-  background-color: red;
   width: 90vw;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -400,4 +399,43 @@ Footer
 .footer-logo,
 .page-footer a{
   color: var(--primary-500);
+}
+
+/*
+=============== 
+Hero
+===============
+*/
+
+.hero{
+  height: 40vh;
+  background: url('../assets/main.jpeg') center/cover no-repeat;
+  border-radius: var(--borderRadius);
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.hero-container{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--borderRadius);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-text{
+  color: var(--white);
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
 }
