@@ -363,3 +363,27 @@ Navbar
     margin-right: 0;
   }
 }
+
+/*
+=============== 
+Footer
+===============
+*/
+
+.page-footer{
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: var(--white);
+}
+
+.page-footer p{
+  margin-bottom: 0;
+}
+
+.footer-logo,
+.page-footer a{
+  color: var(--primary-500);
+}
